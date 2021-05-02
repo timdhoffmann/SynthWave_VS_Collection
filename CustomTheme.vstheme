@@ -19,7 +19,7 @@
       </Color>
       <Color Name="NumberedListItem">
         <Background Type="CT_RAW" Source="FFB9A1CF" />
-        <Foreground Type="CT_RAW" Source="DEFA0000" />
+        <Foreground Type="CT_RAW" Source="FF241B2F" />
       </Color>
       <Color Name="NumberedListItemHover">
         <Background Type="CT_RAW" Source="FF262335" />
@@ -128,8 +128,8 @@
         <Foreground Type="CT_RAW" Source="FFF8F0FF" />
       </Color>
       <Color Name="SelectedText">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFF8F0FF" />
+        <Background Type="CT_RAW" Source="FF423F4F" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
     <Category Name="Cider" GUID="{92d153ee-57d7-431f-a739-0931ca3f7f70}">
@@ -983,7 +983,7 @@
       </Color>
       <Color Name="MarkerFormatDefinition/HighlightedReference">
         <Background Type="CT_RAW" Source="FF615285" />
-        <Foreground Type="CT_RAW" Source="FFADC0D3" />
+        <Foreground Type="CT_RAW" Source="FF615285" />
       </Color>
       <Color Name="MarkerFormatDefinition/FindHighlight">
         <Background Type="CT_RAW" Source="FF773800" />
@@ -1018,8 +1018,8 @@
         <Foreground Type="CT_RAW" Source="FF7CA5A0" />
       </Color>
       <Color Name="CurrentLineActiveFormat">
-        <Background Type="CT_RAW" Source="FFF8F0FF" />
-        <Foreground Type="CT_RAW" Source="FF70648B" />
+        <Background Type="CT_RAW" Source="FF262335" />
+        <Foreground Type="CT_RAW" Source="FF443964" />
       </Color>
       <Color Name="deltadiff.remove.line">
         <Background Type="CT_RAW" Source="FF2D0000" />
@@ -1115,7 +1115,7 @@
       </Color>
       <Color Name="CppLocalVariableSemanticTokenFormat">
         <Background Type="CT_RAW" Source="FF241B2F" />
-        <Foreground Type="CT_RAW" Source="FFD4CCDE" />
+        <Foreground Type="CT_RAW" Source="FFFF0CBB" />
       </Color>
       <Color Name="CppParameterSemanticTokenFormat">
         <Background Type="CT_RAW" Source="FF241B2F" />
@@ -1418,8 +1418,8 @@
         <Foreground Type="CT_RAW" Source="FFBBBBBB" />
       </Color>
       <Color Name="MarkerFormatDefinition/HighlightedDefinition">
-        <Background Type="CT_RAW" Source="FF48830E" />
-        <Foreground Type="CT_RAW" Source="FFC0D3AD" />
+        <Background Type="CT_RAW" Source="FF750778" />
+        <Foreground Type="CT_RAW" Source="FF750778" />
       </Color>
       <Color Name="xml doc comment - attribute name">
         <Background Type="CT_RAW" Source="FF241B2F" />
@@ -1591,7 +1591,7 @@
       </Color>
       <Color Name="Line Number">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFAA9CC6" />
+        <Foreground Type="CT_RAW" Source="FF888690" />
       </Color>
       <Color Name="XML Doc Comment">
         <Background Type="CT_RAW" Source="FF241B2F" />
@@ -1775,11 +1775,11 @@
       </Color>
       <Color Name="local name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE5DDF0" />
+        <Foreground Type="CT_RAW" Source="FF750778" />
       </Color>
       <Color Name="parameter name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE5DDF0" />
+        <Foreground Type="CT_RAW" Source="FFFF7EDB" />
       </Color>
       <Color Name="method name">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -1799,7 +1799,7 @@
       </Color>
       <Color Name="namespace name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE81123" />
+        <Foreground Type="CT_RAW" Source="FFF57883" />
       </Color>
       <Color Name="label name">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -1878,11 +1878,11 @@
         <Foreground Type="CT_RAW" Source="FFF8F0FF" />
       </Color>
       <Color Name="Caret (Primary)">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="FFF97E72" />
+        <Foreground Type="CT_RAW" Source="FFF97E72" />
       </Color>
       <Color Name="Caret (Secondary)">
-        <Background Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="FF745CA0" />
         <Foreground Type="CT_RAW" Source="FF745CA0" />
       </Color>
       <Color Name="CppControlKeywordSyntacticTokenFormat">
@@ -7081,15 +7081,15 @@
       </Color>
       <Color Name="Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFE81123" />
+        <Foreground Type="CT_RAW" Source="FFFE4450" />
       </Color>
       <Color Name="String">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFF38B39" />
       </Color>
       <Color Name="Number">
-        <Background Type="CT_RAW" Source="FF241B2F" />
-        <Foreground Type="CT_RAW" Source="FFF78C6C" />
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFF97E72" />
       </Color>
       <Color Name="XML CData Section">
         <Background Type="CT_RAW" Source="FF241B2F" />
@@ -7250,15 +7250,15 @@
     </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Plain Text">
-        <Background Type="CT_RAW" Source="FFE1EB5A" />
-        <Foreground Type="CT_RAW" Source="FFBBBBBB" />
+        <Background Type="CT_RAW" Source="FF262335" />
+        <Foreground Type="CT_RAW" Source="FFFA8E83" />
       </Color>
       <Color Name="Selected Text">
-        <Background Type="CT_RAW" Source="FF3399FF" />
+        <Background Type="CT_RAW" Source="FF6D6882" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Inactive Selected Text">
-        <Background Type="CT_RAW" Source="FF70648B" />
+        <Background Type="CT_RAW" Source="FF463564" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Indicator Margin">
@@ -8369,8 +8369,8 @@
         <Foreground Type="CT_RAW" Source="FFF8F0FF" />
       </Color>
       <Color Name="SelectedText">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFF8F0FF" />
+        <Background Type="CT_RAW" Source="FF423F4F" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
     <Category Name="Data Source Designer" GUID="{3ffb3681-9b54-42b2-81d5-52453adf56a6}">

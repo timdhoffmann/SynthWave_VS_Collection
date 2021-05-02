@@ -47,7 +47,7 @@ public class AIController : MonoBehaviour
 
         Agent.updateRotation = false;
         Agent.updatePosition = true;
-
+        
         //CharacterController.Init();
     }
 
